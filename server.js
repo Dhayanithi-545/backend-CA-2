@@ -5,7 +5,7 @@ app.use(express.json());
 const users = [];
 
 app.get("/", (req,res)=>{
-    res.send("Welcome to Backend CA-2")
+    res.send("Welcome to Backend CA-2 I'm Dhayanithi from squad 74, I have used post HTTP request to collect the email and password data from the user and stored it in a Array called Users")
 })
 
 app.post("/users", (req,res)=>{
